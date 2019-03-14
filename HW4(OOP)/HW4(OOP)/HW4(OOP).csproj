@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animal.cs" />
+    <Compile Include="Cat.cs" />
+    <Compile Include="Dog.cs" />
+    <Compile Include="Duck.cs" />
+    <Compile Include="IBarking.cs" />
+    <Compile Include="IFlying.cs" />
+    <Compile Include="IMeowing.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Straus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
